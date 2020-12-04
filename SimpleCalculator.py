@@ -4,20 +4,21 @@ Created on Tue Jul 23 01:58:02 2019
 
 @author: Yacino
 """
-
+operations = ["+", "-", "*", "/"]
 while True:
     print("User Manuel : ")
     print("Enter '+' to add two numbers")
     print("Enter '-' to substract two numbers")
     print("Enter '*' to multiply two numbers")
     print("Enter '/' to divide two numbers")
-    print("Enter 'Quit' to end the program")
+    print("Enter any other character to end the program")
     if True:
         break
 while True:
     uinput=input("Which operation do you want prcess Sir/Miss : ")
-    if uinput == "quit" :
+    if uinput not in operations :
         break
+
     
     elif uinput == "+":
         num1 = float(input("Enter a number : "))
