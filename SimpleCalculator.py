@@ -2,7 +2,7 @@
 """
 Created on Tue Jul 23 01:58:02 2019
 
-@author: Yacino
+@author: Yacine Ammi
 """
 operations = ["+", "-", "*", "/"]
 while True:
